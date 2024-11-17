@@ -1,0 +1,163 @@
+* {
+    box-sizing: content-box;
+}
+
+.main-class {
+    background-color: blue;
+    width: 100%;
+    height: 613px;
+    margin: 0;
+    position: relative;
+}
+
+h4 {
+    text-align: center;
+}
+
+
+header {
+
+    box-shadow: 0 0 6px 1px #0020454d inset;
+    background-color: #99ff8da6;
+    width: 100%;
+    position: absolute;
+    height: 34px;
+    direction: rtl;
+}
+
+span {
+    display: block;
+    color: brown;
+    font-weight: bold;
+    text-decoration-line: none;
+}
+
+img {
+    border-radius: 30px;
+    width: 790px;
+    height: 243px;
+    border: 2px blue solid;
+
+}
+
+video {
+    border: 2px blue solid;
+    border-radius: 17px;
+    margin-right: 85px;
+    width: 616px;
+    height: 346px
+}
+
+.box {
+    line-height: 36px;
+    font-size: 20px;
+    bottom: 100px;
+    float: left;
+    position: absolute;
+    right: 270px;
+    top: 34px;
+    left: 0;
+    width: auto;
+    padding: 10px;
+    background-color: #ffffffe8;
+    direction: rtl;
+    overflow-y: scroll;
+}
+
+.maj {
+    /* float: left; */
+    margin: 3px;
+    text-align: center;
+    width: 580px;
+    display: inline-block;
+
+    padding: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+header div {
+    margin: 6px;
+    text-align: center;
+    width: 77px;
+    display: inline-block;
+    padding: 1px;
+    font-size: 16px;
+    border-radius: 4px;
+
+}
+
+header div:hover {
+    border: 1px solid rgb(28, 3, 143);
+
+}
+
+.header-r a {
+    text-decoration: none;
+    color: blue;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.side-bar {
+    float: right;
+    position: absolute;
+    top: 34px;
+    right: 0;
+    bottom: 0;
+    height: auto;
+    width: 250px;
+    padding: 10px;
+    z-index: 100;
+    background-color: #99ff8da6;
+    direction: rtl;
+    overflow-y: scroll;
+}
+
+.side-bar div:hover {
+    margin-left: 10px;
+    background-color: rgb(201, 123, 123);
+    border-radius: 5px;
+}
+
+.side-bar div {
+    border-radius: 5px;
+    background-color: #cad5b4b0;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    direction: rtl;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.side-bar a {
+    text-decoration: none;
+    color: #043303;
+}
+
+.foter {
+    position: absolute;
+    /* width: 100%; */
+    height: 100px;
+    background-color: #f1eaea;
+    bottom: 0;
+    left: 0;
+    right: 270px;
+    direction: rtl;
+    box-shadow: 0 0 6px 1px #0020454d inset;
+
+
+}
+
+.foter div {
+    font-weight: bold;
+    display: inline-block;
+    width: 233px;
+}
+
+.foter ul li {
+    font-weight: normal;
+}
